@@ -1,0 +1,60 @@
+@font-face {
+    font-family: terka;
+    src: url(/fonts/Comic\ Sans\ MS.ttf);
+}
+body {
+    background: url(/gif/ronald-van-egdom-crimson720.gif);
+    background-size: cover;
+}
+a {
+    text-decoration:none;
+    color: #fff;
+  }
+.background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+  .content{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "terka";
+  }
+  .main{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "terka";
+  }
+  .text{
+    font-size: 17px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    line-height: 20px;
+    max-width: 600px;
+  }
+  p{
+    margin-top: 0.2em;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.nick{
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+.links{
+    margin: auto;
+    text-align: center;
+}
